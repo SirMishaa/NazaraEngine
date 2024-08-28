@@ -4,6 +4,8 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
+    site: 'https://sirmishaa.github.io/NazaraEngine',
+    base: 'doc-web',
     integrations: [
         starlight({
             title: 'Nazara documentation',
